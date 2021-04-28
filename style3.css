@@ -1,0 +1,60 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+a {
+    color: #0067ab;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: under-line;
+}
+
+.form {
+    padding-top: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 200px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 25px 8px;
+    color: #fff;
+    background: #0067ab;
+    text-shadow: rgba(0, 0, 0, 0.24) 0 1px 0;
+    font-size: 16px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0 2px 0 isnset, #fff;
+    border: 1px solid #0164a5;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #024978;
+}
+
+.button {
+    background-color: #2cb611;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
